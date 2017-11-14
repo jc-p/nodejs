@@ -8,4 +8,4 @@ console.log(path.join(__dirname,'../test/test2','test3/test4'));
 
 
 console.log(path.isAbsolute(__filename));
-console.log(path,extname(__filename));//extension name 文件扩展名
+console.log(path.extname(__filename));//extension name 文件扩展名
