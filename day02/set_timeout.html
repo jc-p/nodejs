@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="time"></div>
+<script>
+        function showTime (){
+            let data=new Date();
+            let h=data.getHours();
+            let m=data.getMinutes();
+            let s=data.getSeconds();
+
+            document.getElementById("time").innerHTML=h+':'+m+':'+s;
+        }
+        showTime();
+</script>
+</body>
+</html>

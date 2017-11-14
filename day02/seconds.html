@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+        <div id="seconds"></div>
+        <script>
+            let birthday=new Date(prompt('input your birthday',1995+'-'+6+'-'+7));
+            let deathday=new Date(birthday.setFullYear(birthday.getFullYear()+80));
+
+
+            function time(){
+                let today=new Date();
+                let seconds=Math.floor((deathday.getTime()-today.getTime())/1000);
+                document.getElementById('seconds').innerHTML=seconds;
+                setInterval('time()',900);
+            }
+            time();
+        </script>
+</body>
+</html>

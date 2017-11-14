@@ -1,0 +1,15 @@
+{
+  "name": "m4",
+  "version": "1.0.0",
+  "description": "module test ....",
+  "main": "(m4.js)",
+  "scripts": {
+    "test": "11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "11"
+  },
+  "author": "pcj",
+  "license": "UTF-8"
+}
